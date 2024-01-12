@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website - Adarsh tiwari</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Front-end Developer</p>
+          <h1>
+            Hi, I'm <span>Adarsh</span><br />
+            Tiwari From India
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/About me.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              A suitable position with an organization where I utilize the best
+              of my skill and abilities that fit to my education and experience
+              a place where an encourage and permitted to be an active
+              participant as well vital contribute on development of the
+              company.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App interface</li>
+                <li><span>Web development</span><br />Web app development</li>
+                <li>
+                  <span>App development</span><br />Building Android/IOS apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2022 - current</span><br />Web app development</li>
+                <li>
+                  <span>07/2022 - 09/2022</span><br />Internship at Automaton AI
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2019 - 2023</span><br />B.Tech(Computer Science
+                  Engineering) from KUK University
+                </li>
+                <li><span>2018</span><br />Senior Secondary from BSEB Patna</li>
+                <li><span>2016</span><br />Higher Secondary from BSEB Patna</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------sevices----------------- -->
+    <div id="services">
+      <div class="container">
+          <h1 class="sub-title">My Services</h1>
+          <div class="services-list">
+            <div>
+              <i class="fa-solid fa-code"></i>
+              <h2>Web Design</h2>
+              <p>
+                Web design is the process of creating websites, encompassing layout, structure, graphics, and functionality. It aims to deliver visually appealing, user-friendly, and functional interfaces for online platforms. Designers consider aspects like usability, accessibility, and aesthetics to craft engaging digital experiences that cater to diverse user needs and preferences. Effective web design combines creativity with technical expertise to produce seamless and responsive websites across various devices and browsers.
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-crop"></i>
+              <h2>UI/UX Design</h2>
+              <p>
+                UI (User Interface) design and UX (User Experience) design are integral aspects of creating digital products. UI design focuses on the visual elements and interactive components of an interface, aiming to make it aesthetically pleasing and easy to use. It involves crafting layouts, colors, typography, and icons to create a visually appealing design.
+
+On the other hand, UX design centers on the overall experience a user has while interacting with a product. It involves understanding user behaviors, conducting research, and designing intuitive, user-centric interfaces that prioritize ease of use, accessibility, and satisfaction.
+
+Both UI and UX design collaborate closely to ensure that digital products not only look great but also offer a seamless, enjoyable, and efficient experience for users, ultimately aiming to meet their needs and expectations.
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+            <div>
+              <i class="fa-brands fa-app-store-ios"></i>
+              <h2>App Design</h2>
+              <p>
+                App design involves the creation and optimization of interfaces specifically tailored for mobile or desktop applications. It encompasses UI/UX principles to ensure a visually appealing layout, intuitive navigation, and user-friendly interactions. App designers focus on functionality, ease of use, and consistent branding to deliver engaging experiences that cater to the unique requirements and constraints of various platforms and devices. Effective app design aims to enhance user engagement, satisfaction, and overall usability while aligning with the app's purpose and goals.
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------------- portfolio -------------->
+    <div id="portfolio">
+<div class="container">
+  <h1 class="sub-title">My Work</h1>
+  <div class="work-list">
+    <div class="work">
+      <img src="images/Work 1.jpg" >
+      <div class="layer">
+        <h3>Social Media App</h3>
+        <p>The app connects you to the talented pepole around the world. Download it from play store.</p>
+        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+      </div>
+    </div><div class="work">
+      <img src="images/Work 2.jpeg" >
+      <div class="layer">
+        <h3>Music App</h3>
+        <p>The app connects you to the talented pepole around the world. Download it from play store.</p>
+        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+      </div>
+    </div><div class="work">
+      <img src="images/Work 3.jpeg" >
+      <div class="layer">
+        <h3>Online Shoping App</h3>
+        <p>The app connects you to the talented pepole around the world. Download it from play store.</p>
+        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+      </div>
+    </div>
+  </div>
+  <a href="#" class="btn">See more</a>
+
+
+</div>
+</div>
+<!-- -------------------contect--------- -->
+<div id="contact">
+<div class="container">
+  <div class="row">
+    <div class="contact-left">
+      <h1 class="sub-title">Contact Me</h1>
+      <p><i class="fa-solid fa-paper-plane"></i>adarshtiwari2at@gmail.com</p>
+      <p><i class="fa-solid fa-phone-volume"></i>+917739270766</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/profile.php?id=100011457047239&mibextid=gik2fB"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/invites/contact/?i=1h34v1qxps66s&utm_content=6bpsye6"> <i class="fa-brands fa-instagram"></i></a>
+        <a href="https://wa.me/+9177397270766"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://www.linkedin.com/in/adarsh-tiwari-859640249"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/aadi0608"><i class="fa-brands fa-github"></i></a>
+      </div>
+      <a href="images/My-cv.pdf" download class="btn btn2">Download Cv</a>
+    </div>
+    <div class="contact-right">
+      <form name="submit-to-google-sheet"> 
+        <input type="text" name="Name" placeholder="Your Name" required>
+        <input type="email" name="Email" placeholder="Your Email" required>
+        <textarea name="Massage" rows="6" placeholder="Your Massage"></textarea>
+        <button type="submit" class="btn btn2">Submit</button>
+      </form>
+      <span id="msg"></span>
+    
+    </div>
+  </div>
+</div>
+<div class="copyright">
+  <p>Copyright @ Adarsh. Made for <i class="fa-solid fa-heart"></i> knowladge about me</p>
+</div>
+</div>
+
+
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("active-tab");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script src="https://kit.fontawesome.com/54cf4e2bfc.js" crossorigin="anonymous"></script>
+    <script>
+
+      var sidemenu = document.getElementById("sidemenu");
+
+     function openmenu(){
+      sidemenu.style.right = "0"
+     }
+     function closemenu(){
+      sidemenu.style.right = "-200px"
+     }
+     
+     </script>
+
+<!-- <form name="submit-to-google-sheet">
+  <input name="email" type="email" placeholder="Email" required>
+  <button type="submit">Send</button>
+</form> -->
+
+<!-- <form name="submit-to-google-sheet">
+  <input name="email" type="email" placeholder="Email" required>
+  <button type="submit">Send</button>
+</form> -->
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyso33lTc1Xh-X9W2XY_edbBd47KulNgCTxZpSYA6LTgXADgFGSYVU7RSfMUCh5KGoK/exec'
+  const form = document.forms ['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML ="Massage sent successfuly"
+      setTimeout(function(){
+        msg.innerHTML = ""
+      },5000)
+      form.reset()
+      })
+
+      .catch(error => console.error('Error!', error.message))
+})
+</script>
+
+  </body>
+</html>
