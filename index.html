@@ -177,7 +177,7 @@ Both UI and UX design collaborate closely to ensure that digital products not on
       <form name="submit-to-google-sheet"> 
         <input type="text" name="Name" placeholder="Your Name" required>
         <input type="email" name="Email" placeholder="Your Email" required>
-        <textarea name="Massage" rows="6" placeholder="Your Massage"></textarea>
+        <textarea name="Massage" rows="6" placeholder="Your Message"></textarea>
         <button type="submit" class="btn btn2">Submit</button>
       </form>
       <span id="msg"></span>
@@ -186,7 +186,7 @@ Both UI and UX design collaborate closely to ensure that digital products not on
   </div>
 </div>
 <div class="copyright">
-  <p>Copyright @ Adarsh. Made for <i class="fa-solid fa-heart"></i> knowladge about me</p>
+  <p>Copyright @ Adarsh. Made for <i class="fa-solid fa-heart"></i> knowledge about me</p>
 </div>
 </div>
 
@@ -240,7 +240,7 @@ Both UI and UX design collaborate closely to ensure that digital products not on
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => {
-        msg.innerHTML ="Massage sent successfuly"
+        msg.innerHTML ="Message sent successfuly"
       setTimeout(function(){
         msg.innerHTML = ""
       },5000)
